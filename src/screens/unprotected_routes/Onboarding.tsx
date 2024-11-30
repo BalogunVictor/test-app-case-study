@@ -22,14 +22,6 @@ const Onboarding = () => {
 
   return (
     <View style={styles.container}>
-      <View>
-        <CustomText
-          color={colors.white}
-          size={50}
-          weight={800}
-          text="Welcome!!"
-        />
-      </View>
       <View style={styles.buttonWrapper}>
         <CustomButton
           onPress={handleLogin}
